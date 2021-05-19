@@ -10,7 +10,7 @@ importantPrefixPattern = /(![a-z]+)$/
 cssDocsURL = "https://developer.mozilla.org/en-US/docs/Web/CSS"
 
 module.exports =
-  selector: '.source.css, .source.sass, .source.css.postcss'
+  selector: '.source.css, .source.scss, .source.sass, .source.css.postcss'
   disableForSelector: '.source.css .comment, .source.css .string, .source.sass .comment, .source.sass .string, .source.css.postcss .comment, source.css.postcss .string'
   properties: COMPLETIONS.properties
   pseudoSelectors: COMPLETIONS.pseudoSelectors
